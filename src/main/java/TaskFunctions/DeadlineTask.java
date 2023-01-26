@@ -1,4 +1,6 @@
-public class DeadlineTask extends Task{
+package TaskFunctions;
+
+public class DeadlineTask extends Task {
   private String date;
 
   public DeadlineTask(String name, String date) {
@@ -8,6 +10,6 @@ public class DeadlineTask extends Task{
 
   @Override
   public String toString() {
-    return "[D]" + super.toString() + " (by: " + this.date + ")";
+    return "[D] " + super.toString() + " (by: " + this.date + ")";
   }
 }

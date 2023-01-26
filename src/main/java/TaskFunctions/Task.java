@@ -1,3 +1,5 @@
+package TaskFunctions;
+
 public class Task {
   private String name;
   private Boolean completed;

@@ -1,3 +1,5 @@
+package TaskFunctions;
+
 public class EventTask extends Task {
   private String startTime;
   private String endTime;
@@ -10,6 +12,6 @@ public class EventTask extends Task {
 
   @Override
   public String toString() {
-    return "[E]" + super.toString() + " (from: " + this.startTime + " to: " + this.endTime + ")";
+    return "[E] " + super.toString() + " (from: " + this.startTime + " to: " + this.endTime + ")";
   }
 }

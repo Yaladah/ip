@@ -1,10 +1,12 @@
-public class TodoTask extends Task{
+package TaskFunctions;
+
+public class TodoTask extends Task {
   public TodoTask(String name) {
     super(name);
   }
 
   @Override
   public String toString() {
-    return "[T]" + super.toString();
+    return "[T] " + super.toString();
   }
 }
